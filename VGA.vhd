@@ -184,19 +184,5 @@ process (clk25)
 	  
 	  end process;
 
---	process (key0,key1)
-	-- begin
-	  
-	
-	 -- if  key0='0' then
-		-- x_next <= x + 1 
-		 --end if;
-		 
-		  --if  key1='0' then
-		 --x_next <= x - 1 
-		 --end if;	 
-
-	--end process;
-	
 	
 end Behavioral;
