@@ -1,0 +1,34 @@
+# do vgaram.do
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:16:51 on Dec 23,2015
+# vlog -work work vgaram.vo 
+# -- Compiling module vgaram
+# 
+# Top level modules:
+# 	vgaram
+# End time: 12:16:57 on Dec 23,2015, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:16:58 on Dec 23,2015
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module vgaram_vlg_sample_tst
+# -- Compiling module vgaram_vlg_check_tst
+# -- Compiling module vgaram_vlg_vec_tst
+# 
+# Top level modules:
+# 	vgaram_vlg_vec_tst
+# End time: 12:16:58 on Dec 23,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "vgaram.do" 
+# Start time: 12:16:59 on Dec 23,2015
+# Loading work.vgaram_vlg_vec_tst
+# Loading work.vgaram
+# Loading altera_ver.dffeas
+# Loading work.vgaram_vlg_sample_tst
+# Loading work.vgaram_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(218)
+#    Time: 1 us  Iteration: 0  Instance: /vgaram_vlg_vec_tst/tb_out
+# End time: 12:17:06 on Dec 23,2015, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0

@@ -1,0 +1,35 @@
+module ramhex(
+input clk50_in,
+
+output reg clk25,
+//lcd output wire 
+output reg hs_out,
+output reg vs_out,
+output wire [2:0] red_out,
+output wire [1:0] green_out,
+output wire [2:0] blue_out,
+
+);
+
+//reg clk25;
+reg [9:0] horizontal_counter;
+reg [9:0] vertical_counter;
+
+
+always (@posedge clk50_in)
+begin
+ if (clk25 = '0')
+      clk25 <= '1';
+    else
+      clk25 <= '0';
+    end if;
+
+end
+
+
+
+
+
+
+
+endmodule;

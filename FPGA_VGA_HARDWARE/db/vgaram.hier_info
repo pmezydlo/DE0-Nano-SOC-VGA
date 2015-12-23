@@ -1,0 +1,14 @@
+|vgaram
+clk50_in => clk25.CLK
+hs_out <= hs_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+vs_out <= vs_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+red_out[0] <= red_out.DB_MAX_OUTPUT_PORT_TYPE
+red_out[1] <= red_out.DB_MAX_OUTPUT_PORT_TYPE
+red_out[2] <= red_out.DB_MAX_OUTPUT_PORT_TYPE
+green_out[0] <= green_out.DB_MAX_OUTPUT_PORT_TYPE
+green_out[1] <= green_out.DB_MAX_OUTPUT_PORT_TYPE
+blue_out[0] <= blue_out.DB_MAX_OUTPUT_PORT_TYPE
+blue_out[1] <= blue_out.DB_MAX_OUTPUT_PORT_TYPE
+blue_out[2] <= blue_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
